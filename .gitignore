@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Models
+models/
+*.pickle
+*.pkl
+*.joblib
+*.keras
+*.h5
+
+# Data files
+data/
+*.csv
+
+# Cache files
+**/.ipynb_checkpoints
+**/__pycache__
+**/*.egg-info
+
+# Credentials
+*.env*
